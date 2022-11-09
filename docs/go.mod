@@ -15,6 +15,6 @@
 // specific language governing permissions and limitations
 // under the License.
 
-module github.com/zentol/flink-connector-elasticsearch/docs
+module github.com/zentol/flink-connector-elasticsearch
 
 go 1.18
