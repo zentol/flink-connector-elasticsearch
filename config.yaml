@@ -18,9 +18,9 @@
 
 module:
   mounts:
-    - source: content
+    - source: docs/content
       target: content
       lang: en
-    - source: content.zh
+    - source: docs/content.zh
       target: content.zh
       lang: zh
