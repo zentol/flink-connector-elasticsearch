@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   compile_and_test:
-    uses: zentol/flink-connector-shared-utils/.github/workflows/ci.yml@ci_utils
+    uses: zentol/flink-connector-shared-utils/.github/workflows/ci.yml@7f9396b635f320ef85baa7d0ea42018d722499ad
     with:
       flink_version: 1.16.0
       flink_url: https://dist.apache.org/repos/dist/release/flink/flink-1.16.0/flink-1.16.0-bin-scala_2.12.tgz
